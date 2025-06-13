@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isValid) {
             feedbackDiv.textContent = 'Registration successful!';
-            feedbackDiv.style.color = 'green';
+            feedbackDiv.style.color = "#28a745";;
         } else {
             feedbackDiv.textContent = messages.join(' ');
-            feedbackDiv.style.color = 'red';
+            feedbackDiv.style.color = "#dc3545";
         }
     });
 });
